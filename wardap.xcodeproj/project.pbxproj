@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* wardapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* wardapAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* wardapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* wardapViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* wardapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* wardapViewController.m */; };
+		420C3CFA12A770F200A6B9D4 /* BigDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C3CF912A770F200A6B9D4 /* BigDrawView.m */; };
+		420C3EED12A7825500A6B9D4 /* nnScrollingCGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */; };
+		424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 424D0D0F12C6704900605258 /* nnSceneBezierPath.m */; };
+		42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912B3B12A89E5700DDAAC5 /* northNitch.m */; };
+		42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */; };
+		42912FF112AC75C800DDAAC5 /* nnLineGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */; };
+		42912FF212AC75C800DDAAC5 /* nnRateCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FED12AC75C800DDAAC5 /* nnRateCounter.m */; };
+		42912FF312AC75C800DDAAC5 /* nnSceneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */; };
+		42912FFA12AC763000DDAAC5 /* nnSceneObjectPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FF912AC763000DDAAC5 /* nnSceneObjectPart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* wardapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wardapAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* wardapAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wardapAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* wardap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wardap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* wardapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wardapViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* wardapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wardapViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* wardapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wardapViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* wardap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wardap_Prefix.pch; sourceTree = "<group>"; };
+		420C3CF812A770F200A6B9D4 /* BigDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigDrawView.h; sourceTree = "<group>"; };
+		420C3CF912A770F200A6B9D4 /* BigDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigDrawView.m; sourceTree = "<group>"; };
+		420C3EBA12A77FB700A6B9D4 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		420C3EEB12A7825500A6B9D4 /* nnScrollingCGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnScrollingCGView.h; path = ../nnLib/nnScrollingCGView.h; sourceTree = SOURCE_ROOT; };
+		420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnScrollingCGView.m; path = ../nnLib/nnScrollingCGView.m; sourceTree = SOURCE_ROOT; };
+		424D0D0F12C6704900605258 /* nnSceneBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneBezierPath.m; path = ../nnLib/nnSceneBezierPath.m; sourceTree = SOURCE_ROOT; };
+		424D0D1012C6704900605258 /* nnSceneBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneBezierPath.h; path = ../nnLib/nnSceneBezierPath.h; sourceTree = SOURCE_ROOT; };
+		42912B3B12A89E5700DDAAC5 /* northNitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = northNitch.m; path = ../nnLib/northNitch.m; sourceTree = SOURCE_ROOT; };
+		42912B3C12A89E5700DDAAC5 /* northNitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = northNitch.h; path = ../nnLib/northNitch.h; sourceTree = SOURCE_ROOT; };
+		42912FE812AC75C800DDAAC5 /* nnDrawStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnDrawStyle.h; path = ../nnLib/nnDrawStyle.h; sourceTree = SOURCE_ROOT; };
+		42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnDrawStyle.m; path = ../nnLib/nnDrawStyle.m; sourceTree = SOURCE_ROOT; };
+		42912FEA12AC75C800DDAAC5 /* nnLineGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnLineGraphic.h; path = ../nnLib/nnLineGraphic.h; sourceTree = SOURCE_ROOT; };
+		42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnLineGraphic.m; path = ../nnLib/nnLineGraphic.m; sourceTree = SOURCE_ROOT; };
+		42912FEC12AC75C800DDAAC5 /* nnRateCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnRateCounter.h; path = ../nnLib/nnRateCounter.h; sourceTree = SOURCE_ROOT; };
+		42912FED12AC75C800DDAAC5 /* nnRateCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnRateCounter.m; path = ../nnLib/nnRateCounter.m; sourceTree = SOURCE_ROOT; };
+		42912FEE12AC75C800DDAAC5 /* nnSceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneObject.h; path = ../nnLib/nnSceneObject.h; sourceTree = SOURCE_ROOT; };
+		42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneObject.m; path = ../nnLib/nnSceneObject.m; sourceTree = SOURCE_ROOT; };
+		42912FF812AC763000DDAAC5 /* nnSceneObjectPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneObjectPart.h; path = ../nnLib/nnSceneObjectPart.h; sourceTree = SOURCE_ROOT; };
+		42912FF912AC763000DDAAC5 /* nnSceneObjectPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneObjectPart.m; path = ../nnLib/nnSceneObjectPart.m; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* wardap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wardap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* wardapAppDelegate.h */,
+				1D3623250D0F684500981E51 /* wardapAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* wardapViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* wardapViewController.m */,
+				420C3CF812A770F200A6B9D4 /* BigDrawView.h */,
+				420C3CF912A770F200A6B9D4 /* BigDrawView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* wardap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				420C3CF212A7705800A6B9D4 /* nnLib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* wardap_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* wardapViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* wardap-Info.plist */,
+				420C3EBA12A77FB700A6B9D4 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		420C3CF212A7705800A6B9D4 /* nnLib */ = {
+			isa = PBXGroup;
+			children = (
+				424D0D0F12C6704900605258 /* nnSceneBezierPath.m */,
+				424D0D1012C6704900605258 /* nnSceneBezierPath.h */,
+				42912FF812AC763000DDAAC5 /* nnSceneObjectPart.h */,
+				42912FF912AC763000DDAAC5 /* nnSceneObjectPart.m */,
+				42912FE812AC75C800DDAAC5 /* nnDrawStyle.h */,
+				42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */,
+				42912FEA12AC75C800DDAAC5 /* nnLineGraphic.h */,
+				42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */,
+				42912FEC12AC75C800DDAAC5 /* nnRateCounter.h */,
+				42912FED12AC75C800DDAAC5 /* nnRateCounter.m */,
+				42912FEE12AC75C800DDAAC5 /* nnSceneObject.h */,
+				42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */,
+				42912B3B12A89E5700DDAAC5 /* northNitch.m */,
+				42912B3C12A89E5700DDAAC5 /* northNitch.h */,
+				420C3EEB12A7825500A6B9D4 /* nnScrollingCGView.h */,
+				420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */,
+			);
+			name = nnLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* wardap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wardap" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wardap;
+			productName = wardap;
+			productReference = 1D6058910D05DD3D006BFB54 /* wardap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wardap" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* wardap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* wardapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* wardapAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* wardapViewController.m in Sources */,
+				420C3CFA12A770F200A6B9D4 /* BigDrawView.m in Sources */,
+				420C3EED12A7825500A6B9D4 /* nnScrollingCGView.m in Sources */,
+				42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */,
+				42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */,
+				42912FF112AC75C800DDAAC5 /* nnLineGraphic.m in Sources */,
+				42912FF212AC75C800DDAAC5 /* nnRateCounter.m in Sources */,
+				42912FF312AC75C800DDAAC5 /* nnSceneObject.m in Sources */,
+				42912FFA12AC763000DDAAC5 /* nnSceneObjectPart.m in Sources */,
+				424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brice Tebbs (XM2KZ66A66)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wardap_Prefix.pch;
+				INFOPLIST_FILE = "wardap-Info.plist";
+				PRODUCT_NAME = wardap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "904C07E0-9862-4197-9645-0098D78AA5D6";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brice Tebbs (XM2KZ66A66)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wardap_Prefix.pch;
+				INFOPLIST_FILE = "wardap-Info.plist";
+				PRODUCT_NAME = wardap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "904C07E0-9862-4197-9645-0098D78AA5D6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "nnDEBUG_MODE=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wardap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wardap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'wardap' target in the 'wardap' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
