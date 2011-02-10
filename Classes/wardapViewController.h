@@ -13,6 +13,11 @@
     IBOutlet BigDrawView *drawView;
     IBOutlet UIView *controlPanel;
     IBOutlet UIView *mainView;
+    
+    IBOutlet UISegmentedControl *mode;
+    
    }
+
+-(IBAction)modeChanged: (UISegmentedControl*)sender;
 @end
 

@@ -34,9 +34,12 @@
 
 -(void)setupBigDrawView;
 
+-(void)updateWindow;
+
 -(IBAction)panAndZoomMode;
 -(IBAction)drawMode;
 -(IBAction)clearScene;
+
 -(void)addSceneObject: (nnSceneObject*)object;
 
 @property (nonatomic, assign) id <DrawInteractDelegateProtocol> interact_delegate;

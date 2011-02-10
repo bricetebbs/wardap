@@ -18,6 +18,7 @@
 		420C3CFA12A770F200A6B9D4 /* BigDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C3CF912A770F200A6B9D4 /* BigDrawView.m */; };
 		420C3EED12A7825500A6B9D4 /* nnScrollingCGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */; };
 		424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 424D0D0F12C6704900605258 /* nnSceneBezierPath.m */; };
+		42758AA113044F13005A57BE /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 42758AA013044F13005A57BE /* icon-ipad.png */; };
 		42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912B3B12A89E5700DDAAC5 /* northNitch.m */; };
 		42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */; };
 		42912FF112AC75C800DDAAC5 /* nnLineGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */; };
@@ -46,6 +47,7 @@
 		420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnScrollingCGView.m; path = ../nnLib/nnScrollingCGView.m; sourceTree = SOURCE_ROOT; };
 		424D0D0F12C6704900605258 /* nnSceneBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneBezierPath.m; path = ../nnLib/nnSceneBezierPath.m; sourceTree = SOURCE_ROOT; };
 		424D0D1012C6704900605258 /* nnSceneBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneBezierPath.h; path = ../nnLib/nnSceneBezierPath.h; sourceTree = SOURCE_ROOT; };
+		42758AA013044F13005A57BE /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
 		42912B3B12A89E5700DDAAC5 /* northNitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = northNitch.m; path = ../nnLib/northNitch.m; sourceTree = SOURCE_ROOT; };
 		42912B3C12A89E5700DDAAC5 /* northNitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = northNitch.h; path = ../nnLib/northNitch.h; sourceTree = SOURCE_ROOT; };
 		42912FE812AC75C800DDAAC5 /* nnDrawStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnDrawStyle.h; path = ../nnLib/nnDrawStyle.h; sourceTree = SOURCE_ROOT; };
@@ -121,6 +123,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				42758AA013044F13005A57BE /* icon-ipad.png */,
 				2899E5210DE3E06400AC0155 /* wardapViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* wardap-Info.plist */,
@@ -213,6 +216,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* wardapViewController.xib in Resources */,
+				42758AA113044F13005A57BE /* icon-ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +259,7 @@
 				INFOPLIST_FILE = "wardap-Info.plist";
 				PRODUCT_NAME = wardap;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "904C07E0-9862-4197-9645-0098D78AA5D6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -270,6 +275,7 @@
 				INFOPLIST_FILE = "wardap-Info.plist";
 				PRODUCT_NAME = wardap;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "904C07E0-9862-4197-9645-0098D78AA5D6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -38,20 +38,25 @@ NSInteger TOUCH_LINE_WIDTH = 10;
     return self;
 }
 
+
+-(void)updateWindow
+{
+    [self fitView];
+}
 -(void)setupBigDrawView
 { 
     [self setupScollingCGViewWithMapSize: CGRectMake(0,0, self.bounds.size.width*20, self.bounds.size.height*20)];
-    
-    [self setScrollZoomOptions: nnkZoomHorizontal | nnkZoomVertical |
-                                 nnkScrollingVertical  | nnkScrollingHorizontal];
 
-    [self panAndZoomMode];
-    [self centerView];
+    
+    [self setScrollZoomOptions: nnkZoomHorizontal | nnkZoomVertical | nnkScrollingVertical  | nnkScrollingHorizontal];
+    
+
+    [self updateWindow];
+            
     if(!sceneList)
     {
         sceneList = [[NSMutableArray alloc] init];
     }
-    drawing = YES;
 }
 
 
