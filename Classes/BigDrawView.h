@@ -11,25 +11,23 @@
 
 #import "nnSceneObject.h"
 #import "nnRateCounter.h"
-
-@protocol DrawInteractDelegateProtocol
--(void) touchUpPoints: (NSArray*) strokePoints; 
-@end
+#import "nnInteractionView.h"
+#import <QuartzCore/CoreAnimation.h>
 
 
-@interface BigDrawView : nnScrollingCGView {
-    NSMutableArray *dragPoints;
+
+@interface BigDrawView : nnScrollingCGView  <nnInteractionViewDelegate>  {
     BOOL inTouches;
-    
     
     UILabel *dstring1;
     UILabel *dstring2;
     
     BOOL drawing;
     
+    nnInteractionView *feedback;
+    
     NSMutableArray *sceneList; // Array of scene objects
 
-    id <DrawInteractDelegateProtocol> interact_delegate;
 }
 
 -(void)setupBigDrawView;
@@ -42,7 +40,7 @@
 
 -(void)addSceneObject: (nnSceneObject*)object;
 
-@property (nonatomic, assign) id <DrawInteractDelegateProtocol> interact_delegate;
+@property (nonatomic, retain) IBOutlet nnInteractionView* feedback;
 
 @property (nonatomic, retain) IBOutlet UILabel *dstring1;
 @property (nonatomic, retain) IBOutlet UILabel *dstring2;

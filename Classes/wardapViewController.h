@@ -8,11 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "BigDrawView.h"
-@interface wardapViewController : UIViewController <DrawInteractDelegateProtocol> {
+
+#import "TestView.h"
+
+@interface wardapViewController : UIViewController{
     
     IBOutlet BigDrawView *drawView;
     IBOutlet UIView *controlPanel;
     IBOutlet UIView *mainView;
+    
+    IBOutlet TestView *testView;
+
     
     IBOutlet UISegmentedControl *mode;
     

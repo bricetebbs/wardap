@@ -17,22 +17,6 @@
     [super dealloc];
 }
 
--(void) touchUpPoints: (NSArray*) strokePoints
-{
-    CGFloat blue[] = {0.0,0.0,1.0,1.0};
-    nnDrawStyle* ds = [[nnDrawStyle alloc] init];
-    nnSceneBezierPath* bp = [[nnSceneBezierPath alloc] init];
-    ds.strokeWidth = 3.0;
-    [ds setStrokeRGB: blue];
-    bp.drawStyle = ds;
-    [bp setupWithPoints: strokePoints];
-    nnSceneObject *so = [[nnSceneObject alloc] init];
-    [so addPart: bp];
-    [drawView addSceneObject: so];
-    [so release];
-    [bp release];
-    [ds release];
-}
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -40,9 +24,11 @@
     [super viewDidLoad]; 
     
     [drawView setupBigDrawView];
+    [mainView bringSubviewToFront: drawView.feedback];
+    
     [mainView bringSubviewToFront: controlPanel];
     
-    drawView.interact_delegate = self;
+    drawView.feedback.interactDelegate = drawView;
     
     [drawView drawMode];
 }

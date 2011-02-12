@@ -7,16 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @class wardapViewController;
 
 @interface wardapAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    wardapViewController *viewController;
-}
+    wardapViewController *viewController;}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet wardapViewController *viewController;
-
 @end
 

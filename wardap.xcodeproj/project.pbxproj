@@ -17,7 +17,10 @@
 		28D7ACF80DDB3853001CB0EB /* wardapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* wardapViewController.m */; };
 		420C3CFA12A770F200A6B9D4 /* BigDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C3CF912A770F200A6B9D4 /* BigDrawView.m */; };
 		420C3EED12A7825500A6B9D4 /* nnScrollingCGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */; };
+		42290ECA1307369A003E7EBD /* nnInteractionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42290EC913073699003E7EBD /* nnInteractionView.m */; };
+		423CD7331305C646003BD37A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423CD7321305C646003BD37A /* QuartzCore.framework */; };
 		424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 424D0D0F12C6704900605258 /* nnSceneBezierPath.m */; };
+		424E8C201305BAF000B0C889 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424E8C1F1305BAEF00B0C889 /* TestView.m */; };
 		42758AA113044F13005A57BE /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 42758AA013044F13005A57BE /* icon-ipad.png */; };
 		42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912B3B12A89E5700DDAAC5 /* northNitch.m */; };
 		42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */; };
@@ -45,8 +48,13 @@
 		420C3EBA12A77FB700A6B9D4 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		420C3EEB12A7825500A6B9D4 /* nnScrollingCGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnScrollingCGView.h; path = ../nnLib/nnScrollingCGView.h; sourceTree = SOURCE_ROOT; };
 		420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnScrollingCGView.m; path = ../nnLib/nnScrollingCGView.m; sourceTree = SOURCE_ROOT; };
+		42290EC813073699003E7EBD /* nnInteractionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nnInteractionView.h; sourceTree = "<group>"; };
+		42290EC913073699003E7EBD /* nnInteractionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nnInteractionView.m; sourceTree = "<group>"; };
+		423CD7321305C646003BD37A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		424D0D0F12C6704900605258 /* nnSceneBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneBezierPath.m; path = ../nnLib/nnSceneBezierPath.m; sourceTree = SOURCE_ROOT; };
 		424D0D1012C6704900605258 /* nnSceneBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneBezierPath.h; path = ../nnLib/nnSceneBezierPath.h; sourceTree = SOURCE_ROOT; };
+		424E8C1E1305BAEF00B0C889 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		424E8C1F1305BAEF00B0C889 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		42758AA013044F13005A57BE /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
 		42912B3B12A89E5700DDAAC5 /* northNitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = northNitch.m; path = ../nnLib/northNitch.m; sourceTree = SOURCE_ROOT; };
 		42912B3C12A89E5700DDAAC5 /* northNitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = northNitch.h; path = ../nnLib/northNitch.h; sourceTree = SOURCE_ROOT; };
@@ -68,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423CD7331305C646003BD37A /* QuartzCore.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +95,8 @@
 				28D7ACF70DDB3853001CB0EB /* wardapViewController.m */,
 				420C3CF812A770F200A6B9D4 /* BigDrawView.h */,
 				420C3CF912A770F200A6B9D4 /* BigDrawView.m */,
+				424E8C1E1305BAEF00B0C889 /* TestView.h */,
+				424E8C1F1305BAEF00B0C889 /* TestView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -101,6 +112,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				423CD7321305C646003BD37A /* QuartzCore.framework */,
 				420C3CF212A7705800A6B9D4 /* nnLib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -161,6 +173,8 @@
 				42912B3C12A89E5700DDAAC5 /* northNitch.h */,
 				420C3EEB12A7825500A6B9D4 /* nnScrollingCGView.h */,
 				420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */,
+				42290EC813073699003E7EBD /* nnInteractionView.h */,
+				42290EC913073699003E7EBD /* nnInteractionView.m */,
 			);
 			name = nnLib;
 			sourceTree = "<group>";
@@ -239,6 +253,8 @@
 				42912FF312AC75C800DDAAC5 /* nnSceneObject.m in Sources */,
 				42912FFA12AC763000DDAAC5 /* nnSceneObjectPart.m in Sources */,
 				424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */,
+				424E8C201305BAF000B0C889 /* TestView.m in Sources */,
+				42290ECA1307369A003E7EBD /* nnInteractionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
