@@ -24,7 +24,7 @@
     
     BOOL drawing;
     
-    nnInteractionView *feedback;
+    nnInteractionView *feedback; // View layer that sits on top
     
     NSMutableArray *sceneList; // Array of scene objects
 

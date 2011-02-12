@@ -62,6 +62,16 @@
 }
 
 
+
+
+-(void)addSceneObject:(nnSceneObject *)object
+{
+    [sceneList addObject: object];
+    [self setNeedsDisplay];
+}
+
+
+// Map points from the interaction view to the scaled coordinates of the zoom/scroll view
 -(NSArray*)mapPoints: (NSArray*) ptsIn
 {       
     NSMutableArray *rval = [[[NSMutableArray alloc] init] autorelease];
@@ -78,6 +88,7 @@
     }
     return rval;
 }
+
 
 -(void) touchUpPoints: (NSArray*) strokePoints
 {
@@ -99,6 +110,9 @@
     [bp release];
     [ds release];
 }
+
+
+
 
 
 -(void)panAndZoomMode
@@ -135,8 +149,7 @@
                                   rect.origin.y/zoomScale,
                                   rect.size.width/zoomScale, 
                                   rect.size.height/zoomScale);
-    
-    
+
     
     dstring2.text = [NSString stringWithFormat: @"SC:%@ WR=%@",NSStringFromCGPoint(scrollOffset),NSStringFromCGRect(worldRect)];
     
@@ -153,12 +166,6 @@
     CGContextRestoreGState(context);
     
     
-}
-
--(void)addSceneObject:(nnSceneObject *)object
-{
-    [sceneList addObject: object];
-    [self setNeedsDisplay];
 }
 
 @end
