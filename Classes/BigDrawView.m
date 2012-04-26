@@ -21,17 +21,7 @@
     [dstring2 release];
     [sceneList removeAllObjects];
     [sceneList release];
-    
     [super dealloc];
-}
-
-- (id)initWithFrame:(CGRect)frame {
-    
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code.
-    }
-    return self;
 }
 
 
@@ -50,10 +40,10 @@
         sceneList = [[NSMutableArray alloc] init];
     }
     
-
+    // Copy the size of this window to the feeback window so they are equal
+    
     feedback.frame= self.frame;
     feedback.bounds= self.bounds;
-
 
     [self setupScollingCGViewWithMapSize: CGRectMake(0,0, self.bounds.size.width*20, self.bounds.size.height*20)];
     [self setScrollZoomOptions: nnkZoomHorizontal | nnkZoomVertical | nnkScrollingVertical  | nnkScrollingHorizontal];
@@ -64,14 +54,11 @@
 }
 
 
-
-
 -(void)addSceneObject:(nnSceneObject *)object
 {
     [sceneList addObject: object];
     [self setNeedsDisplay];
 }
-
 
 // Map points from the interaction view to the scaled coordinates of the zoom/scroll view
 -(NSArray*)mapPoints: (NSArray*) ptsIn

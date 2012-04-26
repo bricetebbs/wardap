@@ -16,6 +16,7 @@
 // Here we are telling the base class that if the lineWidth changes then we need to redraw
 // if the key is not lineWidth we go with the base class's function
 + (BOOL)needsDisplayForKey:(NSString*)key {
+    
     if ([key isEqualToString:@"lineWidth"]) {
         return YES;
     } else {
@@ -45,7 +46,7 @@
     testLayer.position=CGPointMake(100.0f,100.0f);
     testLayer.bounds=CGRectMake(0.0f,0.0f,200.0f,200.0f);
     
-    UIImage *image = [UIImage imageNamed:@"icon-ipad.png"];
+    UIImage *image = [UIImage imageNamed:@"57.png"];
     CGImageRef imageRef = [image CGImage];
     
     testLayer.contents = (id)imageRef;    
