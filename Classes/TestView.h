@@ -10,24 +10,17 @@
 #import <QuartzCore/CoreAnimation.h>
 
 
-// A CALayer where we will animate the lineWidth
+// A Custom CALayer where we will animate the lineWidth
 @interface MyLayer :  CALayer {
 }
 @property (nonatomic, assign) float lineWidth;
 @end
 
 // This is just a simple view for testing an animation layer
-
-
 @interface TestView : UIView {
     MyLayer *testLayer;
 }
 
--(IBAction)animateIt;
-@end
+-(IBAction)animateIt; // Function which can fire up the animation
 
-
-@interface LayerDelegate : NSObject
-{
-}
 @end

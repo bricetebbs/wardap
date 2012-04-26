@@ -37,10 +37,11 @@
 
 -(void)updateWindow
 {
-    [self fitView];
+    [self fitView];  // Fitview is in the base class and just fits the whole world into the view
 }
 
 
+//  Initialize the view for drawing etc.
 -(void)setupBigDrawView
 { 
     
@@ -56,6 +57,7 @@
 
     [self setupScollingCGViewWithMapSize: CGRectMake(0,0, self.bounds.size.width*20, self.bounds.size.height*20)];
     [self setScrollZoomOptions: nnkZoomHorizontal | nnkZoomVertical | nnkScrollingVertical  | nnkScrollingHorizontal];
+    
     [self updateWindow];
 
     [feedback setNeedsDisplay];
@@ -93,24 +95,33 @@
 -(void) touchUpPoints: (NSArray*) strokePoints
 {
     NSArray *mappedPoints;
+    
+    // Setup the style for the line we are going to draw
     CGFloat blue[] = {0.0,0.0,1.0,1.0};
     nnDrawStyle* ds = [[nnDrawStyle alloc] init];
-    nnSceneBezierPath* bp = [[nnSceneBezierPath alloc] init];
     ds.strokeWidth = 3.0;
     [ds setStrokeRGB: blue];
+    
+    
+    // Create the line object and attache the style
+    nnSceneBezierPath* bp = [[nnSceneBezierPath alloc] init];
     bp.drawStyle = ds;
     
+    // Get the points map them and curvefit then add to the path
     mappedPoints = [self mapPoints: strokePoints];
-    
     [bp setupWithPoints: mappedPoints];
+    
+    
+    // Create a scene object from the path
     nnSceneObject *so = [[nnSceneObject alloc] init];
     [so addPart: bp];
     [self addSceneObject: so];
+    
+    // Release the objects we don't need since they are in the scene graph now
     [so release];
     [bp release];
     [ds release];
 }
-
 
 
 -(void)panAndZoomMode
@@ -118,6 +129,8 @@
     [self setZoomMin:1.0/20.0 andMax: 30.0];
     self.scrollEnabled = YES;
     drawing = NO;
+    
+    // We don't show the feedback view in pan mode. Feedback is used to show the interaction ghost
     self.feedback.hidden = YES;
 }
 
@@ -125,7 +138,6 @@
 {
     [self setZoomMin: 1.0 andMax: 1.0];
     self.scrollEnabled = NO;
-    
     drawing = YES;
     self.feedback.hidden = NO;
 }

@@ -10,10 +10,8 @@
 #import "nnScrollingCGView.h"
 
 #import "nnSceneObject.h"
-#import "nnRateCounter.h"
 #import "nnInteractionView.h"
 #import <QuartzCore/CoreAnimation.h>
-
 
 
 @interface BigDrawView : nnScrollingCGView  <nnInteractionViewDelegate>  {

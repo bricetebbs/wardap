@@ -21,13 +21,18 @@
 		423CD7331305C646003BD37A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423CD7321305C646003BD37A /* QuartzCore.framework */; };
 		424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 424D0D0F12C6704900605258 /* nnSceneBezierPath.m */; };
 		424E8C201305BAF000B0C889 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424E8C1F1305BAEF00B0C889 /* TestView.m */; };
-		42758AA113044F13005A57BE /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 42758AA013044F13005A57BE /* icon-ipad.png */; };
 		42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912B3B12A89E5700DDAAC5 /* northNitch.m */; };
 		42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */; };
 		42912FF112AC75C800DDAAC5 /* nnLineGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */; };
-		42912FF212AC75C800DDAAC5 /* nnRateCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FED12AC75C800DDAAC5 /* nnRateCounter.m */; };
 		42912FF312AC75C800DDAAC5 /* nnSceneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */; };
 		42912FFA12AC763000DDAAC5 /* nnSceneObjectPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FF912AC763000DDAAC5 /* nnSceneObjectPart.m */; };
+		42DA7B2515498D8F00AC2BE9 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B1E15498D8F00AC2BE9 /* 1024.png */; };
+		42DA7B2615498D8F00AC2BE9 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B1F15498D8F00AC2BE9 /* 114.png */; };
+		42DA7B2715498D8F00AC2BE9 /* 144.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B2015498D8F00AC2BE9 /* 144.png */; };
+		42DA7B2815498D8F00AC2BE9 /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B2115498D8F00AC2BE9 /* 512.png */; };
+		42DA7B2915498D8F00AC2BE9 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B2215498D8F00AC2BE9 /* 57.png */; };
+		42DA7B2A15498D8F00AC2BE9 /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B2315498D8F00AC2BE9 /* 72.png */; };
+		42DA7B2B15498D8F00AC2BE9 /* master.pxm in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B2415498D8F00AC2BE9 /* master.pxm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,19 +60,24 @@
 		424D0D1012C6704900605258 /* nnSceneBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneBezierPath.h; path = ../nnLib/nnSceneBezierPath.h; sourceTree = SOURCE_ROOT; };
 		424E8C1E1305BAEF00B0C889 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		424E8C1F1305BAEF00B0C889 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
-		42758AA013044F13005A57BE /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
 		42912B3B12A89E5700DDAAC5 /* northNitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = northNitch.m; path = ../nnLib/northNitch.m; sourceTree = SOURCE_ROOT; };
 		42912B3C12A89E5700DDAAC5 /* northNitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = northNitch.h; path = ../nnLib/northNitch.h; sourceTree = SOURCE_ROOT; };
 		42912FE812AC75C800DDAAC5 /* nnDrawStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnDrawStyle.h; path = ../nnLib/nnDrawStyle.h; sourceTree = SOURCE_ROOT; };
 		42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnDrawStyle.m; path = ../nnLib/nnDrawStyle.m; sourceTree = SOURCE_ROOT; };
 		42912FEA12AC75C800DDAAC5 /* nnLineGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnLineGraphic.h; path = ../nnLib/nnLineGraphic.h; sourceTree = SOURCE_ROOT; };
 		42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnLineGraphic.m; path = ../nnLib/nnLineGraphic.m; sourceTree = SOURCE_ROOT; };
-		42912FEC12AC75C800DDAAC5 /* nnRateCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnRateCounter.h; path = ../nnLib/nnRateCounter.h; sourceTree = SOURCE_ROOT; };
-		42912FED12AC75C800DDAAC5 /* nnRateCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnRateCounter.m; path = ../nnLib/nnRateCounter.m; sourceTree = SOURCE_ROOT; };
 		42912FEE12AC75C800DDAAC5 /* nnSceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneObject.h; path = ../nnLib/nnSceneObject.h; sourceTree = SOURCE_ROOT; };
 		42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneObject.m; path = ../nnLib/nnSceneObject.m; sourceTree = SOURCE_ROOT; };
 		42912FF812AC763000DDAAC5 /* nnSceneObjectPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneObjectPart.h; path = ../nnLib/nnSceneObjectPart.h; sourceTree = SOURCE_ROOT; };
 		42912FF912AC763000DDAAC5 /* nnSceneObjectPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneObjectPart.m; path = ../nnLib/nnSceneObjectPart.m; sourceTree = SOURCE_ROOT; };
+		42DA7B141549886000AC2BE9 /* nnCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnCoder.h; path = ../nnLib/nnCoder.h; sourceTree = "<group>"; };
+		42DA7B1E15498D8F00AC2BE9 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		42DA7B1F15498D8F00AC2BE9 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		42DA7B2015498D8F00AC2BE9 /* 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144.png; sourceTree = "<group>"; };
+		42DA7B2115498D8F00AC2BE9 /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
+		42DA7B2215498D8F00AC2BE9 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		42DA7B2315498D8F00AC2BE9 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
+		42DA7B2415498D8F00AC2BE9 /* master.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = master.pxm; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* wardap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wardap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +122,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				42DA7B1D15498D8F00AC2BE9 /* Icons */,
 				423CD7321305C646003BD37A /* QuartzCore.framework */,
 				420C3CF212A7705800A6B9D4 /* nnLib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -135,7 +146,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42758AA013044F13005A57BE /* icon-ipad.png */,
 				2899E5210DE3E06400AC0155 /* wardapViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* wardap-Info.plist */,
@@ -157,6 +167,7 @@
 		420C3CF212A7705800A6B9D4 /* nnLib */ = {
 			isa = PBXGroup;
 			children = (
+				42DA7B141549886000AC2BE9 /* nnCoder.h */,
 				42290EF313074B4E003E7EBD /* nnInteractionView.m */,
 				42290EF413074B4E003E7EBD /* nnInteractionView.h */,
 				424D0D0F12C6704900605258 /* nnSceneBezierPath.m */,
@@ -167,8 +178,6 @@
 				42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */,
 				42912FEA12AC75C800DDAAC5 /* nnLineGraphic.h */,
 				42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */,
-				42912FEC12AC75C800DDAAC5 /* nnRateCounter.h */,
-				42912FED12AC75C800DDAAC5 /* nnRateCounter.m */,
 				42912FEE12AC75C800DDAAC5 /* nnSceneObject.h */,
 				42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */,
 				42912B3B12A89E5700DDAAC5 /* northNitch.m */,
@@ -177,6 +186,20 @@
 				420C3EEC12A7825500A6B9D4 /* nnScrollingCGView.m */,
 			);
 			name = nnLib;
+			sourceTree = "<group>";
+		};
+		42DA7B1D15498D8F00AC2BE9 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				42DA7B1E15498D8F00AC2BE9 /* 1024.png */,
+				42DA7B1F15498D8F00AC2BE9 /* 114.png */,
+				42DA7B2015498D8F00AC2BE9 /* 144.png */,
+				42DA7B2115498D8F00AC2BE9 /* 512.png */,
+				42DA7B2215498D8F00AC2BE9 /* 57.png */,
+				42DA7B2315498D8F00AC2BE9 /* 72.png */,
+				42DA7B2415498D8F00AC2BE9 /* master.pxm */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +256,13 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* wardapViewController.xib in Resources */,
-				42758AA113044F13005A57BE /* icon-ipad.png in Resources */,
+				42DA7B2515498D8F00AC2BE9 /* 1024.png in Resources */,
+				42DA7B2615498D8F00AC2BE9 /* 114.png in Resources */,
+				42DA7B2715498D8F00AC2BE9 /* 144.png in Resources */,
+				42DA7B2815498D8F00AC2BE9 /* 512.png in Resources */,
+				42DA7B2915498D8F00AC2BE9 /* 57.png in Resources */,
+				42DA7B2A15498D8F00AC2BE9 /* 72.png in Resources */,
+				42DA7B2B15498D8F00AC2BE9 /* master.pxm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +281,6 @@
 				42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */,
 				42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */,
 				42912FF112AC75C800DDAAC5 /* nnLineGraphic.m in Sources */,
-				42912FF212AC75C800DDAAC5 /* nnRateCounter.m in Sources */,
 				42912FF312AC75C800DDAAC5 /* nnSceneObject.m in Sources */,
 				42912FFA12AC763000DDAAC5 /* nnSceneObjectPart.m in Sources */,
 				424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */,
