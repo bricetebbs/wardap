@@ -113,8 +113,6 @@
 
 
 
-
-
 -(void)panAndZoomMode
 {
     [self setZoomMin:1.0/20.0 andMax: 30.0];
@@ -127,8 +125,8 @@
 {
     [self setZoomMin: 1.0 andMax: 1.0];
     self.scrollEnabled = NO;
-    drawing = YES;
     
+    drawing = YES;
     self.feedback.hidden = NO;
 }
 
@@ -151,15 +149,19 @@
                                   rect.size.height/zoomScale);
 
     
-    dstring2.text = [NSString stringWithFormat: @"SC:%@ WR=%@",NSStringFromCGPoint(scrollOffset),NSStringFromCGRect(worldRect)];
+    // Show the current pan and zoom info as dstring2
+    dstring2.text = [NSString stringWithFormat: @"SC:%@ WR=%@",NSStringFromCGPoint(scrollOffset),
+                                                               NSStringFromCGRect(worldRect)];
     
     
     CGContextSetRGBStrokeColor(context, 1.0, 0.0, 0.0, 1.0);
     
+    // Draw the objects using the current transform
     for (nnSceneObject *so in sceneList)
     {
         [so draw: context withTransform:worldToViewTransform];
     }
+    
     CGContextSaveGState(context);
     CGContextConcatCTM(context, worldToViewTransform);
     // Draw Stuff in directly in world Coordinates

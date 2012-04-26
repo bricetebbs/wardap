@@ -19,19 +19,19 @@
 @interface BigDrawView : nnScrollingCGView  <nnInteractionViewDelegate>  {
     BOOL inTouches;
     
+    // Some labels to draw on the control panel
     UILabel *dstring1;
     UILabel *dstring2;
     
-    BOOL drawing;
+    BOOL drawing;  // Current mode
     
-    nnInteractionView *feedback; // View layer that sits on top
+    nnInteractionView *feedback; // View layer that sits on top an watches for touches when we aren't drawing
     
     NSMutableArray *sceneList; // Array of scene objects
 
 }
 
 -(void)setupBigDrawView;
-
 -(void)updateWindow;
 
 -(IBAction)panAndZoomMode;

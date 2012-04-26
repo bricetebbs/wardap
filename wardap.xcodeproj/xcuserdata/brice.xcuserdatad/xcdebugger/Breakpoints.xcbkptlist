@@ -13,7 +13,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "25"
-         endingLineNumber = "25">
+         endingLineNumber = "25"
+         landmarkName = "-dealloc"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -21,18 +23,18 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/BigDrawView.m"
-         timestampString = "315760288.431807"
+         timestampString = "357105386.723709"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "251"
-         endingLineNumber = "251">
+         startingLineNumber = "253"
+         endingLineNumber = "253">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "0"
-         filePath = "/Users/brice/Projects/iOS/nnLib/nnSceneBezierPath.m"
+         filePath = "../nnLib/nnSceneBezierPath.m"
          timestampString = "315760288.432162"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"

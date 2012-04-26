@@ -11,29 +11,23 @@
 
 @implementation wardapViewController
 
-
-
 - (void)dealloc {
     [super dealloc];
 }
-
-
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad]; 
     
     [drawView setupBigDrawView];
-    [mainView bringSubviewToFront: drawView.feedback];
     
+    [mainView bringSubviewToFront: drawView.feedback];
     [mainView bringSubviewToFront: controlPanel];
     
     drawView.feedback.interactDelegate = drawView;
     
     [drawView drawMode];
 }
-
-
 
 -(void)modeChanged: (UISegmentedControl*)sender
 {   

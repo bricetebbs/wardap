@@ -11,17 +11,22 @@
 
 #import "TestView.h"
 
-@interface wardapViewController : UIViewController{
+@interface wardapViewController : UIViewController {
     
+    // The view we are doing the drawing onto
     IBOutlet BigDrawView *drawView;
+    
+    // A View for holding the controls
     IBOutlet UIView *controlPanel;
+    
+    // A view for the full window
     IBOutlet UIView *mainView;
     
+    // A test view for playing around with CA Layer animation
     IBOutlet TestView *testView;
-
     
+    // The mode control
     IBOutlet UISegmentedControl *mode;
-    
    }
 
 -(IBAction)modeChanged: (UISegmentedControl*)sender;
