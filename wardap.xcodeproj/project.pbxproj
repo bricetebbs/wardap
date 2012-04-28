@@ -23,7 +23,6 @@
 		424E8C201305BAF000B0C889 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424E8C1F1305BAEF00B0C889 /* TestView.m */; };
 		42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912B3B12A89E5700DDAAC5 /* northNitch.m */; };
 		42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */; };
-		42912FF112AC75C800DDAAC5 /* nnLineGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */; };
 		42912FF312AC75C800DDAAC5 /* nnSceneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */; };
 		42912FFA12AC763000DDAAC5 /* nnSceneObjectPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 42912FF912AC763000DDAAC5 /* nnSceneObjectPart.m */; };
 		42DA7B2515498D8F00AC2BE9 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DA7B1E15498D8F00AC2BE9 /* 1024.png */; };
@@ -65,8 +64,6 @@
 		42912B3C12A89E5700DDAAC5 /* northNitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = northNitch.h; path = ../nnLib/northNitch.h; sourceTree = SOURCE_ROOT; };
 		42912FE812AC75C800DDAAC5 /* nnDrawStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnDrawStyle.h; path = ../nnLib/nnDrawStyle.h; sourceTree = SOURCE_ROOT; };
 		42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnDrawStyle.m; path = ../nnLib/nnDrawStyle.m; sourceTree = SOURCE_ROOT; };
-		42912FEA12AC75C800DDAAC5 /* nnLineGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnLineGraphic.h; path = ../nnLib/nnLineGraphic.h; sourceTree = SOURCE_ROOT; };
-		42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnLineGraphic.m; path = ../nnLib/nnLineGraphic.m; sourceTree = SOURCE_ROOT; };
 		42912FEE12AC75C800DDAAC5 /* nnSceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneObject.h; path = ../nnLib/nnSceneObject.h; sourceTree = SOURCE_ROOT; };
 		42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nnSceneObject.m; path = ../nnLib/nnSceneObject.m; sourceTree = SOURCE_ROOT; };
 		42912FF812AC763000DDAAC5 /* nnSceneObjectPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nnSceneObjectPart.h; path = ../nnLib/nnSceneObjectPart.h; sourceTree = SOURCE_ROOT; };
@@ -179,8 +176,6 @@
 				42912FF912AC763000DDAAC5 /* nnSceneObjectPart.m */,
 				42912FE812AC75C800DDAAC5 /* nnDrawStyle.h */,
 				42912FE912AC75C800DDAAC5 /* nnDrawStyle.m */,
-				42912FEA12AC75C800DDAAC5 /* nnLineGraphic.h */,
-				42912FEB12AC75C800DDAAC5 /* nnLineGraphic.m */,
 				42912FEE12AC75C800DDAAC5 /* nnSceneObject.h */,
 				42912FEF12AC75C800DDAAC5 /* nnSceneObject.m */,
 				42912B3B12A89E5700DDAAC5 /* northNitch.m */,
@@ -284,7 +279,6 @@
 				420C3EED12A7825500A6B9D4 /* nnScrollingCGView.m in Sources */,
 				42912B3D12A89E5700DDAAC5 /* northNitch.m in Sources */,
 				42912FF012AC75C800DDAAC5 /* nnDrawStyle.m in Sources */,
-				42912FF112AC75C800DDAAC5 /* nnLineGraphic.m in Sources */,
 				42912FF312AC75C800DDAAC5 /* nnSceneObject.m in Sources */,
 				42912FFA12AC763000DDAAC5 /* nnSceneObjectPart.m in Sources */,
 				424D0D1112C6704900605258 /* nnSceneBezierPath.m in Sources */,
