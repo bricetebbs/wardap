@@ -13,6 +13,9 @@
 #import "nnInteractionView.h"
 #import <QuartzCore/CoreAnimation.h>
 
+// THe main class for drawing the view. A subclass of UIScrollView 
+// which also includes a nnInteractionView for showing user feedback.
+
 
 @interface BigDrawView : nnScrollingCGView  <nnInteractionViewDelegate>  {
     BOOL inTouches;
@@ -29,17 +32,27 @@
 
 }
 
+// Setup the view based on the views attached in the .xib
 -(void)setupBigDrawView;
+
+// Needed when we rotate the view to reset everything
 -(void)updateWindow;
 
+// Switch UI to pan/zoom mode
 -(IBAction)panAndZoomMode;
+
+// Switch UI to draw mode
 -(IBAction)drawMode;
+
+// Clear the scene (erase the screen)
 -(IBAction)clearScene;
 
+// Add an object to the scene
 -(void)addSceneObject: (nnSceneObject*)object;
 
-@property (nonatomic, retain) IBOutlet nnInteractionView* feedback;
 
+// Outlets for IB
+@property (nonatomic, retain) IBOutlet nnInteractionView* feedback;
 @property (nonatomic, retain) IBOutlet UILabel *dstring1;
 @property (nonatomic, retain) IBOutlet UILabel *dstring2;
 

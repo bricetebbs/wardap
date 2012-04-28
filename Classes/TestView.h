@@ -1,5 +1,6 @@
 //
 //  TestView.h
+//  Just a hack to play with CA Animation layers
 //  wardap
 //
 //  Created by Brice Tebbs on 2/11/11.

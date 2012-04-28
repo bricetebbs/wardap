@@ -21,11 +21,13 @@
     
     [drawView setupBigDrawView];
     
+    // Make sure feedback is in front of the draw view and that control panel is on top of feedback
     [mainView bringSubviewToFront: drawView.feedback];
     [mainView bringSubviewToFront: controlPanel];
     
     drawView.feedback.interactDelegate = drawView;
     
+    // Lets start in draw mode so we don't confuse people.
     [drawView drawMode];
 }
 
